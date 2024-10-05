@@ -1,74 +1,242 @@
-/* General Styles */
-body {
+* {
     margin: 0;
-    font-family: Montserrat, sans-serif;
-    background-color: #333; /* Uncomment if needed */
+    padding: 0;
+    box-sizing: border-box;
 }
-
-/* Header Styles */
-.header {
-    width: 100%; /* Make the header full-width */
-    max-width: 1600px; /* Optional max-width for larger screens */
-    height: 65px;
-    background: #282828;
+.heder {
+    width: 1196;
+    height: 92px;
+    font: 1em sans-serif;
     display: flex;
     align-items: center;
-    padding: 0 20px; /* Add some padding for content spacing */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    position: relative;
+    justify-content: space-around;
 }
-
-/* Logo Image */
-.logo img {
-    width: 100px;
-    height: 53px;
-}
-
-/* Navigation Items */
-.nav {
+.heder-abaut{
+    width: 487px;
+    height: 22px;
     display: flex;
     align-items: center;
-    margin-left: auto; /* Push navigation items to the right */
+    justify-content: space-around;
 }
-
-.nav-item {
-    margin: 0 20px; /* Spacing between items */
-    font-size: 20px;
+.there{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.the-uz{
+    width: 169px;
+    height: 48px;
+    padding: 12px 0px; 
+    border-radius: 24px;
     font-weight: 700;
-    line-height: 24.38px;
-    color: #fff; /* Set text color */
+    color: red;
+    border: 1px solid red;
+    /* color: red; */
+    /* border: 3px , solid red; */
+}
+.the-uz:hover{
+    background-color: red;
+    color:#ffffff;
+    border: red;
+}
+.container .heder .heder-abaut  a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000;    
+}
+.container .heder  .there a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 23px;
+}
+.container{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.hero-main{
+    width: 1077px;
+    height: 601px;
+
+}
+.hero-main .sas .hero-link{
+    width: 533px;
+    height: 118px;
+    margin: 27px 0px;
+    font-size: 55px;
+}
+.hero-main .sas .hero-link-1{
+    width: 500px;
+    height: 105px;
+    color: #202020;
+    font-size: 22px;
+}
+.btn-hero{
+    text-align: center;
+    width: 250px;
+    height: 59px;
+    margin: 35px 0px 50px;
+    padding: 18px 0px;
+    font: 20px Rubik,sans-serif;
+    text-align: center;
+    border-radius: 12px;
+    background-color: red;
+    color: #fff;
+    border: 6px solid red;
+}
+.hero-main{
+    width: 90%;
+    height: 600px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-1{
+    width: 533px;
+    height: 333px;
+}
+.icon{
+    width: 100%;
+    height: 130px;
+    font: 20px Rubik,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(34, 33, 33, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 310px;
+}
+.div-tw{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    font: 20px Rubik,sans-serif;
+}
+/* .p-one{
+    width: 430px;
+    height: 96px;
+    margin: 0px 0px;
+    padding-right: 100px;
+} */
+.hed{
+    width: 200px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+.hero-link{
+    width: 473px;
+    height: 177px;
+    margin: 27px 0px;
+    font-weight: 600;
+    font-size: 203px;
+    font: 200px Rubik,sans-serif;
+}
+.hero-link-1{
+    width: 473px;
+    height: 105px;
+    font: 200px Rubik,sans-serif;
+}
+.one {
+    display: flex; 
+    align-items: center; 
 }
 
-/* Icon Images */
-.icon img {
-    width: 20px;
-    height: 20px;
-    margin-left: 20px; /* Spacing between icons */
+.img-2 {
+    flex: 1; 
+    width: 526px;
+    height: 429px;
+    padding: 0 0 25px;
 }
 
-/* Hover Effects */
-.nav-item:hover,
-.icon img:hover {
-    opacity: 0.7; /* Add some visual feedback on hover */
-    cursor: pointer;
+.p-one {
+    flex: 2;
+    padding-left: 20px;
 }
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-    }
-    .nav {
-        margin-top: 10px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .nav-item {
-        margin: 5px 0;
-    }
-    .icon img {
-        margin: 5px 0;
-    }
+.p-one h2{
+    width: 383px;
+    height: 144px;
+    font: 40px Rubik,sans-serif;
+}
+.div-one{
+    width: 383px;
+    height: 75px;
+    font: 20px Rubik,sans-serif;
+}
+.one-ou{ 
+    text-align: center; 
+    margin: 20px 0; 
+    font: 40px Rubik,sans-serif;
+    text-align: center; 
+    margin: 20px 0; 
+}
+.uo h3{
+        text-align: center; 
+        max-width: 800px; 
+        margin: 20px auto; 
+        overflow-wrap: break-word; 
+        white-space: normal; 
+}
+.one-ui{
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap
+}
+.card{
+    width: 355px;
+    height: 750px;
+    font: 16px Rubik,sans-serif;
+    margin: 25px 10px 25px 0;
+    padding: 75px 0 60px;
+}
+.card-img-top{
+    width: 146px;
+    height: 167px;
+}
+.img-secshen{
+    width: 1056px;
+    height: 537px;
+    margin: 0 auto;
+}
+.div-secshen{
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.trusday h5{
+    text-align: center; 
+max-width:450px; 
+margin: 0px auto; 
+}
+.obuna{
+    width: 998px;
+    height: 263px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: 10px Rubik,sans-serif;
+    padding: 50px 60px;
+}
+.obuna main h2{
+    width: 480px;
+    height: 90px;
+    font: 40px Rubik,sans-serif;
+}
+.obuna main h4{
+    width: 480px;
+    height: 23px;
+    font: 20px Rubik,sans-serif;
+    margin: 25px 0;
 }
